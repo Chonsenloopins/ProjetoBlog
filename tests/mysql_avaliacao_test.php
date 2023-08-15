@@ -4,11 +4,11 @@ require_once '../core/conexao_mysql.php';
 require_once '../core/sql.php';
 require_once '../core/mysql.php';
 
-insert_teste ('10', 'ta otimo', 2 ,  18 ,'1996-03-01 20:05:56');
+insert_teste ('10', 'ta otimo', 1 ,  2 ,'1996-03-01 20:05:56');
 buscar_teste();
-update_teste(1, '7', 'bom até',1,28,'1996-03-01');
+update_teste(1, '7', 'bom até', 1 , 2,'1996-03-04 21:09:14');
 buscar_teste();
-delete_teste(25);
+delete_teste(7);
 
 //Teste inserção banco de dados
 function insert_teste($nota, $comentario, $usuario_id, $post_id, $data_criacao): void{

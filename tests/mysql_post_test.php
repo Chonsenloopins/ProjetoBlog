@@ -4,7 +4,7 @@ require_once '../core/conexao_mysql.php';
 require_once '../core/sql.php';
 require_once '../core/mysql.php';
 
-insert_teste ('Prova', 'coisa linda dms', 2,'1996-03-01 20:30:50');
+insert_teste ('Prova', 'coisa linda dms', 1,'1996-03-01 20:30:50');
 buscar_teste();
 update_teste(1, 'Topzera', 'coisa feia', 1, '1996-03-01 20:30:50');
 buscar_teste();
