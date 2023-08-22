@@ -36,4 +36,5 @@ function delete_teste($id):void{
     deleta('avaliacao',$criterio);
 }
 
+
 ?>
